@@ -87,7 +87,7 @@ class Movie(db.Model):
         }
 
 
-# to create dummy data for Sqlite database
+# to create dummy data for Sqlite database via Python interpreter
 
 def add_actor_data(name, age, gender):  
     try:
